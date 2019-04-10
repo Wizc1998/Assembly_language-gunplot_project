@@ -1,0 +1,24 @@
+Disclaimer:
+# BY SUBMITTING THIS FILE AS PART OF MY LAB ASSIGNMENT, I CERTIFY
+THAT
+# ALL OF THE CONTENT OF THIS FILE WAS CREATED BY ME WITH NO
+# ASSISTANCE FROM ANY PERSON OTHER THAN THE INSTRUCTOR OF THIS
+COURSE
+# OR ONE OF OUR UNDERGRADUATE GRADERS. 
+
+Weizi Cai
+
+total time: about 5 hours
+
+My experience of using GDB on this one: for the .c file, because we didn't do much, so GDB ran through it smoothly. There was a segment fail during my first run after I finished my codes. I used GDB to went through it and I found it was the problem about leaq. By tui reg general, I carefully compared the values, and found I copied but didn't change one of the register name when I reused my code of x loop to y loop, lol. GDB works the best with Assembly codes!!!
+
+One thing you learned or observed about programming in x86‐64 while doing the lab:
+There is a thing I did really helps: Print out the "register conventions" slide from class, which has all registers on it. Everytime you use one, circle it.
+
+Describe ‐ to the best of your ability‐ what the 3D graph that gnuplot creates from your
+data.
+
+When was 50-50, We can clearly see the graph was a 3D graph made of many little dots. 
+When was 100-100, We can still see the graph was a 3D graph made of many little dots, but only if we flip the graph around. 
+When was 200-200 and above, the graph just looks like a all-red carpet with no holes on it. The shape was like a carpet but 4 corners goes down. My PC starts to work slow.
+When was 600-600 and above, the graph changed shape, and it starts to look like: as professor said on class, like a table with 4 high back chairs. My PC was really slow when processing it.
